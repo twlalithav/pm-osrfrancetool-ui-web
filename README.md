@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Documentation
+
+### Run automatic lint
+
+The project uses `prettier` to fix linting issues. Details [AUTOLINT](docs/AUTOLINT.md).
+
+### `yarn lint`
+
 ## Available Scripts
 
 In the project directory, you can run:
