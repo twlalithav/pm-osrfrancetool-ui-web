@@ -12,7 +12,7 @@ function AllPayments() {
         "https://gist.githubusercontent.com/shireeshaBongarala/c30fbb4fb212df8531f0fec624fb9753/raw/bd07c8aacecc9f53f3e5ad80b181e82e0e5b5eb9/payments.json"
       );
       if (response.data) {
-        setPayments((p) => response.data);
+        setPayments(() => response.data);
       }
     }
     fetchApi();

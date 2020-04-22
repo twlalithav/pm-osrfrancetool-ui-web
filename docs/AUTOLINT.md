@@ -13,3 +13,10 @@ To setup autolinting in your application:
    "lint": "prettier . --write"
  }
 ```
+
+4. You may want to add this command as part of a precommit hook.
+   `npm i -D husky lint-staged`
+
+### References
+
+[Autolinting with airbnb style guides](https://coffeencoding.com/reactjs-auto-lint-format-on-git-commit-with-airbnb-styleguide/)
