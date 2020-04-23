@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 The project uses `prettier` to fix linting issues. Details [AUTOLINT](docs/AUTOLINT.md).
 
+### Testing
+
+[Testing Recipes](https://reactjs.org/docs/testing-recipes.html)
+
 ### `yarn lint`
 
 ## Available Scripts
