@@ -14,7 +14,7 @@ To setup autolinting in your application:
  }
 ```
 
-4. You may want to add this command as part of a precommit hook.
+4. You may want to add this command as part of a pre-commit hook.
    `yarn add -dev husky lint-staged`
 
 ### References
