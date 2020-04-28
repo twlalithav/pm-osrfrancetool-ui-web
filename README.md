@@ -4,6 +4,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Documentation
 
+# Package Manager - Npm or Yarn?
+
+Npm and Yarn are two popular package managers for building and managing project dependencies.
+
+It is highly recommended to use only one of the two `package-lock.json` if using npm, `yarn.lock` if using yarn for locking your dependencies.
+https://classic.yarnpkg.com/blog/2018/06/04/yarn-import-package-lock/
+
 ### Run automatic lint
 
 The project uses `prettier` to fix linting issues. Details [AUTOLINT](docs/AUTOLINT.md).
