@@ -1,7 +1,7 @@
 To setup autolinting in your application:
 
 1. Run the command below to add the required dependencies:
-   `npm install --save-dev eslint-config-prettier eslint-plugin-prettier prettier eslint-plugin-react eslint`
+   `yarn add --dev eslint-config-prettier eslint-plugin-prettier prettier eslint-plugin-react eslint`
 
 2. Add the files `.eslintignore`, `.eslintrc.json`, `.prettierignore`.
    You may refer to the samples in this project and configure as per your needs.
@@ -15,7 +15,7 @@ To setup autolinting in your application:
 ```
 
 4. You may want to add this command as part of a precommit hook.
-   `npm i -D husky lint-staged`
+   `yarn add -dev husky lint-staged`
 
 ### References
 
