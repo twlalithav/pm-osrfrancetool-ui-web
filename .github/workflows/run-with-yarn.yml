@@ -29,5 +29,9 @@ jobs:
           yarn install
           yarn lint
           yarn test
+      - name: Run lighthouse  
+        run: |
+          npm install -g @lhci/cli@0.3.x
+          lhci autorun --upload.target=temporary-public-storage || echo "LHCI failed!"
         env:
           CI: true
