@@ -2,9 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Documentation
-
-### Run automatic lint
+Some notes at [Notes](docs/notes.md)
 
 ### Testing
 
