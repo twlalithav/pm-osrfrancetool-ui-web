@@ -4,3 +4,4 @@ yarn.lock
 .next
 .github/
 node_modules/
+*.png
