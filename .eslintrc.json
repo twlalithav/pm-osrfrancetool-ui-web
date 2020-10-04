@@ -22,5 +22,9 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": ["react", "react-hooks", "jest"]
+  "plugins": ["react", "react-hooks", "jest"],
+  "rules": {
+    "jest/no-hooks": 0,
+    "jest/prefer-expect-assertions": 0
+  }
 }

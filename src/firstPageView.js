@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 function Page({ payments }) {
   if (payments.payments && payments.payments.length > 0) {
@@ -13,5 +14,17 @@ function Page({ payments }) {
     </React.Fragment>
   );
 }
+
+Page.propTypes = {
+  payments: PropTypes.shape({
+    payments: PropTypes.array,
+  }),
+};
+
+Page.defaultProps = {
+  payments: {
+    payments: [],
+  },
+};
 
 export default Page;
