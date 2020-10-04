@@ -1,7 +1,1 @@
-package-lock.json
-yarn.lock
-.prettierignore
-.next
-.github/
-node_modules/
-*.png
+src/**/*.styles.js
