@@ -6,12 +6,13 @@
     "axios": "^0.19.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "tailwindcss": "^1.9.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
     "eject": "react-scripts eject",
     "lint": "eslint --cache ./src/",
     "prettier": "prettier \"{src, scripts, tests}/**/*.{js,md}\" --check",
@@ -41,9 +42,11 @@
     }
   },
   "devDependencies": {
+    "@craco/craco": "^5.7.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.0.4",
     "@testing-library/user-event": "^12.1.7",
+    "autoprefixer": "^10.0.1",
     "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-jest": "^24.0.2",
     "eslint-plugin-prettier": "^3.1.2",
@@ -51,6 +54,7 @@
     "eslint-plugin-react-hooks": "^4.1.2",
     "husky": "^4.2.5",
     "lint-staged": "^10.1.7",
+    "postcss-nested": "^5.0.1",
     "prettier": "^2.0.2"
   }
 }
